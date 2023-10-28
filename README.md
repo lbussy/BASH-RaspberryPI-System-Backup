@@ -32,6 +32,3 @@ If asked to select an editor, I usually use the default option 2 - nano.  Then a
 `0 3 * * * /mnt/backup/system_backup.sh`
 
 This will make the script take a full image backup every night at 3 a.m.
-
-## More info
-https://www.hackviking.com/single-board-computers/raspberry-pi/automated-raspberry-pi-backup-complete-image/

@@ -21,6 +21,14 @@ Example: `sudo ./system_backup.sh /mnt/usbstick 7`
 
 This will put the backup in `/mnt/usbstick`` and keep the backups for 7 days before cleaning them out.
 
+## Compression
+
+If you desire a compressed image, you may use the optional `-c` flag at the end of your invocation.
+
+Example: `sudo ./system_backup.sh /mnt/usbstick 7 -c`
+
+Compression, especially on a Pi Zero, takes a significantly longer amount of time.
+
 ## Automate
 
 Once you have tested the script and are done with the settings, you can automate this by adding it to `cron`.  Since it needs to run as root, you need to edit the root crontab like this:
